@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/caiqingchong/SDKFramework"  
   s.source       = { :git => "https://github.com/caiqingchong/SDKFramework.git", :tag => s.version } 
-  s.source_files = "SDKFramework/*.{h,m}"  
+  s.source_files = "真机模拟器合并/*.{h,m}"  
   s.requires_arc = true  
   s.platform     = :ios, "7.0"  
   s.frameworks   = "UIKit", "Foundation","CoreTelephony"
